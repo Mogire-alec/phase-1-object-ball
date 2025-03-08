@@ -1,6 +1,13 @@
 console.log('Advanced debugging example running.')
 debugger
 
+function homeTeamName() {
+  let object = gameObject();
+  return object["home"]["teamName"];
+}
+
+console.log(homeTeamName());
+
 // first, define the function.
 function goodPractices() {
   let game = gameObject();
